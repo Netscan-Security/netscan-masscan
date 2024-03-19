@@ -1,6 +1,10 @@
-[![unittests](https://github.com/robertdavidgraham/masscan/actions/workflows/unittests.yml/badge.svg?branch=master)](https://github.com/robertdavidgraham/masscan/actions/workflows/unittests.yml/?branch=master)
+<p align="center">
+  <img width="100" src="https://imgur.com/3cw4DQr.png" alt="NetScan Security Logo" />
+  <h2 align="center">NetScan MASSCAN</h2>
+  <p align="center">Precision Scans, Real-time Defense</p>
+</p>
 
-# MASSCAN: Mass IP port scanner
+# Description: Mass IP port scanner
 
 This is an Internet-scale port scanner. It can scan the entire Internet
 in under 5 minutes, transmitting 10 million packets per second,
@@ -9,7 +13,7 @@ from a single machine.
 Its usage (parameters, output) is similar to `nmap`, the most famous port scanner.
 When in doubt, try one of those features -- features that support widespread
 scanning of many machines are supported, while in-depth scanning of single
-machines aren't.
+machines isn't.
 
 Internally, it uses asynchronous transmission, similar to port scanners
 like  `scanrand`, `unicornscan`, and `ZMap`. It's more flexible, allowing
